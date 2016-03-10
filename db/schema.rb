@@ -11,12 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160310001456) do
+ActiveRecord::Schema.define(version: 20160310172641) do
 
   create_table "stocks", force: :cascade do |t|
     t.string   "ticker"
     t.string   "name"
-    t.decimal  "price"
+    t.decimal  "last_price"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

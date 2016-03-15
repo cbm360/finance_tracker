@@ -9,3 +9,5 @@ This is the finance tracker app from the Complete Ruby on Rails Developer course
 5. Users can look for friends, or other users of the app, by name or email
 6. Users can view portfolio of stocks their friends are traciing for investing ideas
 7. Mobile friendly responisve styling
+
+Working example https://finance-tracker-360paradigm.herokuapp.com/my_portfolio
